@@ -1,5 +1,5 @@
 <template>
-  <view class="index">
+  <view class="testpage">
     <text>{{ msg }}</text>
   </view>
 </template>
@@ -10,7 +10,7 @@ import './index.less'
 export default {
   data () {
     return {
-      msg: 'index page!'
+      msg: 'Hello world!'
     }
   }
 }

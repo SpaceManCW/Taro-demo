@@ -70,3 +70,18 @@ yarn global add @tarojs/cli@latest
 ```
 $ taro update project
 ```
+
+快速创建页面，在当前项目pages目录下快速创建页面并填充基础代码：
+```
+Taro create --name 页面名称
+```
+
+安装指定版本：
+```
+# 使用 npm 安装 CLI
+$ npm install -g @tarojs/cli@1.3.9
+# OR 使用 yarn 安装 CLI
+$ yarn global add @tarojs/cli@1.3.9
+# OR 安装了 cnpm，使用 cnpm 安装 CLI
+$ cnpm install -g @tarojs/cli@1.3.9
+```
